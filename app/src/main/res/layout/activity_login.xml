@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context="com.rifki.pustakav20.LoginActivity"
+    android:orientation="vertical"
+    android:focusable="true"
+    android:focusableInTouchMode="true" >
+
+    <ImageView
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:id="@+id/pustaka_logo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/pustaka2"/>
+
+    <EditText
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:id="@+id/email"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/edittext_border"
+        android:hint="Username/Email"
+        android:textColorHint="#fff"
+        android:gravity="center"
+        android:textSize="40px"
+        android:textColor="#fff"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:id="@+id/password"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/edittext_border"
+        android:hint="Password"
+        android:textColorHint="#fff"
+        android:textSize="40px"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:inputType="textPassword" />
+
+    <Button
+
+        android:layout_gravity="center"
+        android:id="@+id/btnLogin"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dip"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/button_border"
+        android:text="Login"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <TextView android:id="@+id/btnLinkToRegisterScreen"
+        android:layout_marginTop="20dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="14dp"
+        android:text="Tidak mempunyai akun? Daftar!"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:textSize="16dip"/>
+
+</LinearLayout>

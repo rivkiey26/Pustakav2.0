@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context="com.rifki.pustakav20.SplashActivity">
+
+    <ImageView
+        android:id="@+id/icon1"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/pustaka2"
+        android:layout_marginTop="84dp"
+        android:layout_below="@+id/tview2"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:src="@drawable/logodikbudputih"
+        android:id="@+id/imageView"
+        android:adjustViewBounds="true"
+        android:layout_marginTop="34dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/tview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Direktorat Jendral Kebudayaan"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:textColor="#fff"
+        android:layout_marginTop="18dp"
+        android:gravity="center_vertical"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/tview2"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kementerian Pendidikan dan Kebudayaaan"
+        android:textColor="#fff"
+
+        android:gravity="center_vertical"
+        android:layout_below="@+id/tview"
+        android:layout_centerHorizontal="true"/>
+    <!--<ProgressBar-->
+
+        <!--android:id="@+id/progressBar2"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginBottom="58dp"-->
+        <!--android:layout_below="@id/icon1"-->
+
+        <!--/>-->
+    <!--<ProgressBar-->
+        <!--style="?android:attr/progressBarStyleLarge"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/icon1"-->
+        <!--android:layout_marginTop="20dp"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:indeterminate="true"-->
+        <!--android:indeterminateDrawable="@drawable/progressbarr" />-->
+
+
+</RelativeLayout>

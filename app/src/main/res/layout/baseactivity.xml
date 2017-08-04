@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="360dp"
+        android:id="@+id/dynamicContent"
+        android:orientation="vertical"
+        android:background="#fff"
+        android:layout_gravity="bottom"
+        android:layout_weight="1.03">
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bottonNavBar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="#fff"
+        android:elevation="10dp"
+        android:foregroundGravity="bottom"
+        android:orientation="horizontal"
+        android:paddingTop="5dp">
+
+
+        <RadioGroup
+            android:id="@+id/radioGroup1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:baselineAligned="false"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/home"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:button="@null"
+                android:checked="false"
+
+                android:gravity="center"
+                android:padding="2dp"
+                android:drawableTop="@drawable/home"
+                android:textSize="12sp" />
+
+
+
+            <RadioButton
+                android:id="@+id/pustaka"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:button="@null"
+                android:checked="false"
+
+                android:gravity="center"
+                android:padding="2dp"
+                android:drawableTop="@drawable/books"
+
+                android:textSize="12sp" />
+
+            <RadioButton
+                android:id="@+id/profile"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:button="@null"
+                android:checked="false"
+                android:drawableTop="@drawable/user"
+                android:gravity="center"
+                android:padding="2dp"
+
+                android:textSize="12sp" />
+
+
+        </RadioGroup>
+    </LinearLayout>
+
+</LinearLayout>
