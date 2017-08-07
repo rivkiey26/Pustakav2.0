@@ -1,2 +1,2 @@
 # pustakaProject2
-Aplikasi 
+Aplikasi Android katalog Buku Perpustakaan Milik Kementrian Pendidikan dan Kebudayaan
